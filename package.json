@@ -1,0 +1,23 @@
+{
+  "name": "lms-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvab-ht/lms-playwright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvab-ht/lms-playwright/issues"
+  },
+  "homepage": "https://github.com/atharvab-ht/lms-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1"
+  }
+}
