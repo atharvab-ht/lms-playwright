@@ -55,6 +55,6 @@ test('find elements using getByTitle(), getByTestId(), $$(), XPath & CSS selecto
     'Playwright enables reliable web automation for testing, scripting, and AI agents.'
   );
 
-  // CSS selector
+  // CSS selector, css= is default (optional)
   await expect(page.locator('css=.navbar__logo img')).toBeVisible();
 });
